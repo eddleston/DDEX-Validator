@@ -1,0 +1,26 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="DDEXValidator.Tests.Properties" GeneratedClassName="TestSettings">
+  <Profiles />
+  <Settings>
+    <Setting Name="EmptyXml" Type="System.String" Scope="User">
+      <Value Profile="(Default)">&lt;?xml version="1.0"?&gt;
+&lt;ernm:NewReleaseMessage xmlns:ddexc="http://ddex.net/xml/20110630/ddexC" xmlns:ernm="http://ddex.net/xml/ern/34" xmlns:xs="http://www.w3.org/2001/XMLSchema-instance" xs:schemaLocation="http://ddex.net/xml/2011/ern-main/33 http://ddex.net/xml/2011/ern-main/33/ern-main.xsd" MessageSchemaVersionId="2011/ern-main/33" LanguageAndScriptCode="en"&gt;
+	&lt;MessageHeader&gt;
+		&lt;MessageThreadId&gt;058AF4F5-4B2B-4fb4-A677-D360350D5013&lt;/MessageThreadId&gt;
+		&lt;MessageId&gt;058AF4F5-4B2B-4fb4-A677-D360350D5013&lt;/MessageId&gt;
+		&lt;MessageFileName&gt;AudioSingle.xml&lt;/MessageFileName&gt;
+		&lt;MessageSender&gt;
+			&lt;PartyId&gt;PADPIDA0000000001A&lt;/PartyId&gt;
+			&lt;TradingName&gt;Iron Crown Music&lt;/TradingName&gt;
+		&lt;/MessageSender&gt;
+		&lt;MessageRecipient&gt;
+			&lt;PartyId&gt;PADPIDA0000000002A&lt;/PartyId&gt;
+			&lt;TradingName&gt;Lamson Digital Distribution&lt;/TradingName&gt;
+		&lt;/MessageRecipient&gt;
+		&lt;MessageCreatedDateTime&gt;2010-07-23T00:00:00&lt;/MessageCreatedDateTime&gt;
+		&lt;MessageControlType&gt;TestMessage&lt;/MessageControlType&gt;
+	&lt;/MessageHeader&gt;
+&lt;/ernm:NewReleaseMessage&gt;</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

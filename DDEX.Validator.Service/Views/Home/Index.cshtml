@@ -1,0 +1,42 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<h2>@ViewBag.Message</h2>
+
+<p>Check your DDEX ERN file against the relevant Release Profile</p>
+
+@using (Html.BeginForm("ValidateDdex", "Home", FormMethod.Post, new { enctype="multipart/form-data", id = "validateForm" }))    
+{
+    <div id="search">
+        <div id="SelectRelease">Select the release profile and version: <select name="releaseType" id="releaseType">
+                <option>Audio Single</option>
+                <option>Audio Album</option>
+                <option>Digital Classical Audio Album</option>
+                <option>Video Single</option>
+                <option>Video Album</option>
+                <option>LongForm Video</option>
+                <option>Ringtone</option>
+                <option>Single Resource Release</option>
+                <option>Mixed Media Bundle</option>
+                <option>Digital Boxed Set</option>
+            </select>
+            <select name="version" id="version">
+                <option>10</option>
+            </select> and select a file: <input type="file" name="xmlSourceFile" id="xmlSourceFile" />
+        </div>
+    </div>
+    <br />
+    <div>
+        or paste your XML below:
+    </div>
+    <br />
+    <div>
+        @Html.TextArea("xmlMessage", new { cols = 60 })
+    </div>
+    <br />
+    <div id="ValidateBtn">
+        <input id="btnValidate" type="submit" value="Validate" />
+    </div>
+    <br />
+}
