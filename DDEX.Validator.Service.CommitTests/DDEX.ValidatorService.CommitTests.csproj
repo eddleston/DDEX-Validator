@@ -88,7 +88,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
-    <Content Include="Content\AudioSingle.33.xml" />
     <Content Include="Schema\release-notification.xsd_NameMapping.cs2008.xml" />
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +108,9 @@
       <Project>{6E1F0DA7-092C-417E-88BF-B1AF6D1DC10C}</Project>
       <Name>DDEX.ValidatorService</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Content\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
