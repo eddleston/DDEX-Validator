@@ -105,9 +105,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\AudioAlbum.33.xml" />
-    <Content Include="Content\AudioSingle.33.xml" />
-    <Content Include="Content\AudioSingleCorrected.33.xml" />
     <Content Include="Content\OutputToHtml.xslt" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
@@ -135,29 +132,6 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Content\AllReleaseProfiles.33.sch" />
-    <None Include="Content\AllReleaseProfiles.34.sch" />
-    <None Include="Content\AudioAlbum.33.sch" />
-    <None Include="Content\AudioAlbum.34.sch" />
-    <None Include="Content\AudioSingle.33.sch" />
-    <None Include="Content\AudioSingle.34.sch" />
-    <None Include="Content\DigitalBoxedSet.33.sch" />
-    <None Include="Content\DigitalBoxedSet.34.sch" />
-    <None Include="Content\DigitalClassicalAudioAlbum.33.sch" />
-    <None Include="Content\DigitalClassicalAudioAlbum.34.sch" />
-    <None Include="Content\LongformVideo.33.sch" />
-    <None Include="Content\LongformVideo.34.sch" />
-    <None Include="Content\MixedMediaBundle.33.sch" />
-    <None Include="Content\MixedMediaBundle.34.sch" />
-    <None Include="Content\Ringtone.33.sch" />
-    <None Include="Content\Ringtone.34.sch" />
-    <None Include="Content\SingleResourceRelease.33.sch" />
-    <None Include="Content\SingleResourceRelease.34.sch" />
-    <None Include="Content\VideoAlbum.33.sch" />
-    <None Include="Content\VideoAlbum.34.sch" />
-    <None Include="Content\VideoAlbum.sch" />
-    <None Include="Content\VideoSingle.33.sch" />
-    <None Include="Content\VideoSingle.34.sch" />
     <Content Include="Views\Account\ChangePassword.cshtml" />
     <Content Include="Views\Account\ChangePasswordSuccess.cshtml" />
     <Content Include="Views\Account\LogOn.cshtml" />
