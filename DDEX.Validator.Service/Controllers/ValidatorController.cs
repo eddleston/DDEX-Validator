@@ -21,10 +21,10 @@ using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using EMI.DDEX.ValidatorService.Models;
+using DDEX.ValidatorService.Models;
 using RestMvc.Attributes;
 
-namespace EMI.DDEX.ValidatorService.Controllers
+namespace DDEX.ValidatorService.Controllers
 {
     public class ValidatorController : Controller
     {

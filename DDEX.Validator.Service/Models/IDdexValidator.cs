@@ -20,7 +20,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace EMI.DDEX.ValidatorService.Models
+namespace DDEX.ValidatorService.Models
 {
     public interface IDdexValidator
     {

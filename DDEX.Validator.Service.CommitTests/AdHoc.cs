@@ -51,9 +51,8 @@ namespace DDEXValidator.Tests
                 var xmlDocument = new XmlDocument();
                 xmlDocument.Load(file.FullName);
 
-                var newReleaseMessage = new NewReleaseMessage();
-                newReleaseMessage.FromXml(xmlDocument.OuterXml);
-                var releaseProfile = newReleaseMessage.GetReleaseProfile();
+                /* TODO: Choose correct release profile */
+                var releaseProfile = "Audio Single"; // newReleaseMessage.GetReleaseProfile();
                 if (releaseProfile == "Ringtune")
                 {
                     releaseProfile = "Ringtone";
@@ -64,7 +63,7 @@ namespace DDEXValidator.Tests
                 var version = "10";
                 var xsltPath = baseDir + "\\OutputToHtml.xslt";
 
-                var validatorResponse = validator.Transform(baseDir, newReleaseMessage.ToXml(), releaseProfile, version);
+                var validatorResponse = validator.Transform(baseDir, xmlDocument.OuterXml, releaseProfile, version);
                 var formattedResponse = validator.TransformOutputForScreen(xsltPath, validatorResponse);
 
                 if (!formattedResponse.Contains("This message is valid!"))

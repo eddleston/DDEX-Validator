@@ -21,7 +21,7 @@ using System.Linq;
 using System.Web.Mvc;
 using StructureMap;
 
-namespace EMI.DDEX.ValidatorService.DependencyResolution
+namespace DDEX.ValidatorService.DependencyResolution
 {
     public class StructureMapDependencyResolver : IDependencyResolver {
 

@@ -15,7 +15,7 @@
  *  governing permissions and limitations under the Licence.
 */
 
-namespace EMI.DDEX.ValidatorService.Models
+namespace DDEX.ValidatorService.Models
 {
     using System;
     using System.IO;

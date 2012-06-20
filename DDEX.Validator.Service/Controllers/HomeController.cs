@@ -26,10 +26,10 @@ using System.Web.Routing;
 using System.Xml;
 using log4net;
 using log4net.Repository.Hierarchy;
-using EMI.DDEX.ValidatorService.Models;
+using DDEX.ValidatorService.Models;
 using RestMvc.Attributes;
 
-namespace EMI.DDEX.ValidatorService.Controllers
+namespace DDEX.ValidatorService.Controllers
 {
     public class HomeController : Controller
     {

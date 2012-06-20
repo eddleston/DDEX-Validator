@@ -6,10 +6,10 @@ using System.Text;
 using System.Web;
 using System.Web.Mvc;
 using DDEXValidator.Tests.Properties;
-using EMI.DDEX.ValidatorService.Controllers;
-using EMI.DDEX.ValidatorService.Models;
+using DDEX.ValidatorService.Controllers;
+using DDEX.ValidatorService.Models;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using EMI.DDEX.ValidatorService;
+using DDEX.ValidatorService;
 using Moq;
 
 namespace DDEXValidator.Tests.Controllers

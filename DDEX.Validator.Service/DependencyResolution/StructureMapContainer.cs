@@ -15,7 +15,7 @@
  *  governing permissions and limitations under the Licence.
 */
 
-namespace EMI.DDEX.ValidatorService.DependencyResolution
+namespace DDEX.ValidatorService.DependencyResolution
 {
     using System;
     using System.Collections.Generic;

@@ -1,11 +1,11 @@
 ﻿using System.Reflection;
 using System.Web.Mvc;
 using System.Web.Routing;
-using EMI.DDEX.ValidatorService.DependencyResolution;
+using DDEX.ValidatorService.DependencyResolution;
 using log4net.Config;
 using RestMvc;
 
-namespace EMI.DDEX.ValidatorService
+namespace DDEX.ValidatorService
 {
     // Note: For instructions on enabling IIS6 or IIS7 classic mode, 
     // visit http://go.microsoft.com/?LinkId=9394801

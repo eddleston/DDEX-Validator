@@ -22,9 +22,9 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 using System.Web.Security;
-using EMI.DDEX.ValidatorService.Models;
+using DDEX.ValidatorService.Models;
 
-namespace EMI.DDEX.ValidatorService.Controllers
+namespace DDEX.ValidatorService.Controllers
 {
     public class AccountController : Controller
     {
